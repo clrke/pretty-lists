@@ -1,0 +1,20 @@
+{
+  "name": "pretty-lists",
+  "version": "1.0.0",
+  "description": "Make lists pretty",
+  "scripts": {
+    "build": "watchify -t -o pretty-lists.js lib/PrettyLists.js -v"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arkeidolon/pretty-lists.git"
+  },
+  "bugs": {
+    "url": "https://github.com/arkeidolon/pretty-lists/issues"
+  },
+  "homepage": "https://github.com/arkeidolon/pretty-lists",
+  "dependencies": {
+    "pluralize": "~1.1.2",
+    "watchify": "~2.4.0"
+  }
+}
