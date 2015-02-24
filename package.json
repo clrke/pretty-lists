@@ -18,5 +18,14 @@
   },
   "devDependencies": {
     "watchify": "~2.4.0"
-  }
+  },
+  "main": "pretty-lists.js",
+  "keywords": [
+    "pretty",
+    "list",
+    "array",
+    "format"
+  ],
+  "author": "Clarke Benedict Tapay Plumo <clarke.plumo@gmail.com> (http://githuv.com/arkeidolon)",
+  "license": "BSD-2-Clause"
 }
