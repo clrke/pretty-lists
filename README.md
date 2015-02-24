@@ -4,7 +4,7 @@ JavaScript library for making lists pretty
 ## Example
 
 ``` javascript
-var prettyList = require('pretty-lists/pretty-lists');
+var prettyList = require('pretty-lists');
 
 var items = [
 	{
