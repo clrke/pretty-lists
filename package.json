@@ -1,6 +1,6 @@
 {
   "name": "pretty-lists",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Make lists pretty",
   "scripts": {
     "build": "watchify -t -o pretty-lists.js lib/PrettyLists.js -v"
