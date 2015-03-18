@@ -52,6 +52,7 @@ var items = [
 
 console.log(prettyList.format1(items, 'name'));
 console.log(prettyList.format2(items, 'name', 'email'));
+console.log(prettyList.format2(items, 'name', 'favorites.music'));
 
 ```
 
@@ -59,3 +60,4 @@ console.log(prettyList.format2(items, 'name', 'email'));
 
 	Clarke, Person1 and 3 others
 	Clarke (clarke.plumo@gmail.com), Person1 (person1@prettylists.com) and 3 others
+	Clarke (Freebird), Person1 (Crazy Train) and 3 others
