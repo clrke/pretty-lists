@@ -7,7 +7,29 @@ JavaScript library for making lists pretty
 
 ``` javascript
 var prettyList = require('pretty-lists');
+```
 
+### Set of items 1
+
+``` javascript
+var items = ['Clarke', 'Person1', 'Person2', 'Person3', 'Person4'];
+```
+### Normal usage
+
+``` javascript
+console.log(prettyList.format0(items));
+// Clarke, Person1 and 3 others
+```
+
+### Specifying the maximum display count
+
+``` javascript
+console.log(prettyList.format0(items, 3));
+// Clarke, Person1, Person2 and 2 others
+```
+### Set of items 2
+
+``` javascript
 var items = [
 	{
 		name: 'Clarke',
@@ -50,9 +72,7 @@ var items = [
 		}
 	},
 ]
-
 ```
-
 ### Normal usage
 
 ``` javascript
@@ -67,7 +87,6 @@ console.log(prettyList.format2(items, 'name', 'favorites.music'));
  **/
  
 ```
-
 
 ### Specifying the maximum display count
 
