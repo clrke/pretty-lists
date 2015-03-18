@@ -18,14 +18,14 @@ var prettyList = require('pretty-lists');
 ``` javascript
 var items = ['Clarke', 'Person1', 'Person2', 'Person3', 'Person4'];
 ```
-### Normal usage
+##### Normal usage
 
 ``` javascript
 console.log(prettyList.format0(items));
 // Clarke, Person1 and 3 others
 ```
 
-### Specifying the maximum display count
+##### Specifying the maximum display count
 
 ``` javascript
 console.log(prettyList.format0(items, 3));
@@ -77,7 +77,7 @@ var items = [
 	},
 ]
 ```
-### Normal usage
+##### Normal usage
 
 ``` javascript
 console.log(prettyList.format1(items, 'name'));
@@ -92,7 +92,7 @@ console.log(prettyList.format2(items, 'name', 'favorites.music'));
  
 ```
 
-### Specifying the maximum display count
+##### Specifying the maximum display count
 
 ``` javascript
 console.log(prettyList.format1(items, 'name', 3));
