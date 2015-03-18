@@ -1,6 +1,10 @@
 # Pretty Lists
 JavaScript library for making lists pretty
 
+## Installation
+
+	npm install pretty-lists
+
 ## Example
 
 ### Initialization
